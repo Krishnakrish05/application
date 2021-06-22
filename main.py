@@ -3,7 +3,7 @@ import re
 
 
 
-def filehandling(file):
+def filehandling(file,ofile):
     opening_file= open(file,'r')
     reading_file=opening_file.read().split()
     print(reading_file)
@@ -93,7 +93,7 @@ def filehandling(file):
 
  #Creating a following actions and writing it in new file
 
-    op = open("output.txt", "a")
+    op = open(ofile, "a")
 
     for up in arr:
         if len(up)>3:
@@ -114,7 +114,7 @@ def filehandling(file):
 
 
 
-filehandling('file.txt')
+filehandling('file.txt','output.txt')
 
 
 
