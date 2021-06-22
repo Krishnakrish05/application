@@ -104,7 +104,7 @@ def filehandling(file,ofile):
          op.write(up[:2] + up[2].swapcase())
 
         if len(up)>5:
-           op.write(up[:5] + up[5].swapcase() + up[5:])
+           op.write(up[:4] + up[4].swapcase() + up[5:])
 
         if up.isspace():
             op.write(up.replace('-'))
