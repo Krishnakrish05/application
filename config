@@ -1,0 +1,11 @@
+[input-config]
+infile=file.txt
+
+
+[output-config]
+outfile=output.txt
+
+
+
+
+
